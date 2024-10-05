@@ -1,0 +1,50 @@
+.sidebar {
+    height: 100vh;
+    background-color: rgb(236, 38, 38 );
+    padding: 1rem;
+    position: fixed;
+    width: 30vh;
+    padding-top: 30px;
+}
+
+.sidebar a {
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.sidebar a:hover {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 1rem;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+}
+.adminnav{
+    background-color:rgb(236, 38, 38 ) ;
+    color: white;
+}
+.adminbtn{
+    color: white;
+}
+.adminbtn li:hover {
+    background-color: black;
+    border-radius: 5px;
+}

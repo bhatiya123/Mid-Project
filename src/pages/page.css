@@ -1,0 +1,97 @@
+.login-container{
+    margin-top: 100px;
+}
+.login-container img{
+    height: 90%;
+}
+.loginbtn34{
+    padding: 15px 40px;
+    border: none;
+    background-color: rgb(236, 38, 38);
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    color:white;
+    font-weight: 700;
+    -webkit-transition: ease-out 0.7s;
+    -moz-transition: ease-out 0.7s;
+     transition: ease-out 0.7s;
+}
+.loginbtn34:hover{
+    box-shadow: inset 200px 0 0 0 black;
+}
+.login34head{
+    font-size: 40px;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    margin-top: -30px;
+}
+.logincolumn{
+    padding-left: 50px;
+}
+.regiin{
+    width:90%;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.regicol1 div {
+    padding: 5px 0;
+}
+.regih11{
+    font-size: 40px;
+    padding-top: 20px;
+}
+.regipad{
+    margin-top: 20px;
+}
+.requesthead{
+  font-size: 30px;
+  font-weight: 500;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.requestcontainer{
+    width:70%;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.requestinput{
+    width:400px;
+    margin-bottom: 10px;
+}
+.bbttn{
+    margin-bottom: 30px;
+}
+.error-text{
+    color:rgb(236, 38, 38 );
+}
+.Iconcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.myrequestmain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:30px;
+    padding-left: 100px;
+   
+}
+.requestbox{
+    border: 2px solid black;
+    width: 500px;
+    padding: 20px;
+    font-size: 20px;
+}
+.requesttitle{
+    font-weight: 500;
+    padding-bottom: 5px;
+}

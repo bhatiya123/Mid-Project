@@ -1,0 +1,23 @@
+.abouta1{
+    margin: 0;
+}
+.a-content{
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 2px;
+}
+.abouta1 img{
+    width: 100%;
+}
+.ap-content{
+    font-weight: 700;
+    font-size: 60px;
+}
+.ap1-content{
+    font-size: 20px;
+    color:rgb(236, 38, 38);
+    padding-left: 50px;
+}

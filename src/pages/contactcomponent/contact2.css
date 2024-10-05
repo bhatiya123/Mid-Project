@@ -1,0 +1,26 @@
+.contact2{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 40px 0;
+    padding-left: 30px;
+    width:70%;
+    background-color:#f9f9f9;
+}
+.contact2 img{
+    height: 300px;
+}
+.contact2-content{
+    padding-left: 70px;
+    padding-top: 40px;
+    width: 60%;
+    font-size: 20px;
+    text-align: justify;
+}
+.contact2t1{
+    font-size: 25px;
+    font-weight: 700;
+}
+.contact2t2{
+    padding-top: 20px;
+}

@@ -1,0 +1,59 @@
+.about{
+    display: flex;
+    margin-top: 100px;
+}
+.images{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.image2{
+    margin-left: -200px;
+}
+.content1{
+     padding:10px 50px; 
+}
+.contentheading{
+    color:rgb(236, 38, 38);
+    font-size: 25px;
+    font-weight: 700;
+}
+.contentbtn{
+    border:none;
+    border-radius: 5px;
+    background-color: rgb(236, 38, 38);
+    cursor: pointer;
+    color:white;
+    font-weight: 700;
+    padding: 15px 40px;
+    width:fit-content;
+    -webkit-transition: ease-out 0.7s;
+   -moz-transition: ease-out 0.7s;
+    transition: ease-out 0.7s;
+}
+.contentbtn:hover{
+    box-shadow: inset 200px 0 0 0 black;
+}
+.list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+.list-item .check-mark {
+    margin-right: 10px;
+    color: darkred;
+    font-size: 20px;
+}
+  
+.list-item .text {
+    font-size: 20px;
+    font-weight: 500;
+}
+.list{
+    display: flex;
+    padding-bottom: 30px;
+}
+.sidebar{
+    padding-left: 100px;
+}

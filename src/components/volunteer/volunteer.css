@@ -1,0 +1,82 @@
+.volunteer{
+    background-color: rgb(237, 241, 241);
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-bottom: 60px;
+}
+.carddetails{
+    background-color: rgb(237, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    overflow: hidden;
+   
+}
+.card{
+   text-align: center;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+   overflow: hidden;
+    transition: transform 1s ease;
+   /* position: relative; */
+}
+.cardname{
+    font-size: 25px;
+    padding-top: 5px;
+    color: black;
+    font-weight: 600;
+}
+.cardtext{
+    color: rgb(236, 38, 38);
+    margin-top: -15px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.volunteerhead{
+    color:rgb(236, 38, 38);
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+.volunteertext{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: -10px;
+    padding-bottom: 20px;
+}
+.c-img{
+    border: 1px solid white;
+    border-radius: 5px;
+    /* padding: 25px; */
+    transition: transform 1s ease
+}
+
+.card-wrapper{
+    overflow: hidden;
+}
+.card-wrapper img{
+    transition: transform 1s ease
+}
+.card .c-img:hover{
+    transform: scale(1.25);
+}
+
+.image-wrapper {
+    overflow:hidden;
+}
+.backtotop{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1000;
+}

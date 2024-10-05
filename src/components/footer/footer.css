@@ -1,0 +1,21 @@
+.footer{
+    background-color: rgb(237, 241, 241);
+    padding-bottom: 20px;
+    padding-top: 40px ;
+}
+.aboutus{
+    width:230px;
+}
+
+.title{
+    font-size: 25px;
+    color:rgb(236, 38, 38);
+}
+.aboutparagraph{
+    font-size: 16px;
+}
+.contentblack{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+}

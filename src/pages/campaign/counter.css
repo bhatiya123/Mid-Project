@@ -1,0 +1,64 @@
+.counter-item {
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    border-radius: 10px;
+    padding: 100px;
+    transition: transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .counter-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .counter-icon {
+    width: 70px;
+    height: 70px;
+    color: #dc3545;
+    display: flex;
+  }
+  
+  .counter-value {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .counter-label {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+  }
+  
+  
+   @keyframes countUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  } 
+  
+  .counter-value {
+    animation: countUp 0.5s ease-out forwards;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .counter-item {
+      margin-bottom: 20px;
+    }
+  }
+.statistics-counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../components/assets/c1.JPG');
+    background-size: cover;
+    height: 350px;
+}

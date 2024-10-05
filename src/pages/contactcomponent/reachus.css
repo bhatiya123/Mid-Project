@@ -1,0 +1,73 @@
+.reachus{
+    width: 80%;
+    padding: 80px 0;
+}
+.reachhead{
+    color: rgb(236, 38, 38);
+    font-size: 23px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.reachhead1{
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+.reachtext{
+    font-size: 14px;
+    text-align: justify;
+}
+.reachbtn{
+    padding: 10px 40px;
+    border: none;
+    background-color: rgb(236, 38, 38);
+    cursor: pointer;
+    margin-top: 10px;
+    color:white;
+    font-weight: 700;
+    border-radius: 10px;
+    -webkit-transition: ease-out 0.7s;
+    -moz-transition: ease-out 0.7s;
+     transition: ease-out 0.7s;
+}
+.reachbtn:hover{
+    box-shadow: inset 200px 0 0 0 black;
+}
+.reachcontect{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    column-gap: 20px;
+}
+.reachcontect input{
+    width:330px;
+    height: 55px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+     letter-spacing: 2px;
+}
+
+#message{
+  width: 680px;
+  height: 100px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  padding-left: 20px;
+}
+.col1{
+    width: 55%;
+    margin-left: 30px;
+}
+.reachformbtn{
+    padding: 10px 40px;
+    border: none;
+    background-color: rgb(236, 38, 38);
+    cursor: pointer;
+    color:white;
+    font-weight: 700;
+    border-radius: 10px;
+    -webkit-transition: ease-out 0.7s;
+    -moz-transition: ease-out 0.7s;
+     transition: ease-out 0.7s;
+}
+.reachformbtn:hover{
+    box-shadow: inset 200px 0 0 0 black;
+}

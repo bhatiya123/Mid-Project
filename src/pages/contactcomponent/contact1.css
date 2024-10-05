@@ -1,0 +1,24 @@
+.contact1{
+    margin: 0;
+}
+.b-content{
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 2px;
+}
+.contact1 img{
+    width: 100%;
+    filter: brightness(60%);
+}
+.bp-content{
+    font-weight: 700;
+    font-size: 60px;
+}
+.bp1-content{
+    font-size: 20px;
+    color:rgb(236, 38, 38);
+    padding-left: 50px;
+}

@@ -1,0 +1,74 @@
+.servicetext{
+    color: rgb(236,38,38);
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+.servicename{
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.servicebtn{
+    padding: 15px 40px;
+    border: none;
+    background-color: rgb(236, 38, 38);
+    cursor: pointer;
+    color:white;
+    font-weight: 700;
+    margin: 30px;
+    margin-top: -20px;
+   -webkit-transition: ease-out 0.7s;
+   -moz-transition: ease-out 0.7s;
+    transition: ease-out 0.7s;
+}
+.servicebtn:hover{
+    box-shadow: inset 200px 0 0 0 black;
+}
+.serhead{
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 30px;
+}
+.services h1{
+    color: rgb(226, 225, 225);
+    font-weight: 700;
+    font-size: 80px;
+    padding-left: 30px;
+}
+
+.service1{
+    display: flex;
+    text-align: left;
+    margin:70px 0;
+}
+.service2{
+    display: flex;
+    width: 91%;
+    text-align:right;
+}
+.servicep{
+    font-size: 20px;
+    padding: 40px;
+    margin-top: -20px;
+}
+.servi11 {
+    padding-right: 40px;
+}
+.serhead1{
+    padding-right: 40px;
+    font-size: 30px;
+    font-weight: 700;
+   
+}
+.services{
+    margin-top: 50px;
+}
+.service-wrapper {
+    overflow: hidden;
+}
+.s-img:hover {
+    scale: 1.2;
+}

@@ -1,0 +1,43 @@
+.clientname{
+    color: rgb(236, 38, 38);
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.clienttext{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+.clientmain{
+    background-color:rgb(236, 38, 38);
+    text-align: center;
+    width:70%;
+    margin-left: 180px;
+    color: white;
+}
+.textspecial{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 230px;
+    padding-bottom: 20px;
+}
+.qut{
+    font-size: 50px;
+    font-weight: 700;
+}
+.qutt{
+    font-size: 30px;
+    font-weight: 700; 
+}
+.cliname {
+    font-size: 20px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin-bottom: 80px;
+}
